@@ -1,0 +1,233 @@
+/*Universal */
+body {
+   box-sizing: border-box;
+}
+
+p {
+   font-size: 1em;
+}
+
+
+/* header */
+header .jumbotron,
+header {
+   background-image: url(img/images.jpg);
+   min-height: 550px;
+   color: white;
+}
+
+header h1 {
+   font-size: 3rem;
+   margin-bottom: 60px;
+}
+
+
+.incover {
+   display: flex;
+   height: 100px;
+   margin-top: 90px;
+   justify-content: space-between
+}
+
+.incoverBody1 {
+   flex: 2;
+   margin: auto 10px;
+}
+
+.incoverBody2 {
+   flex: 2;
+   margin: auto;
+}
+
+.incoverBody3 {
+   flex: 1;
+   margin: auto 30px;
+}
+
+.incover input {
+   width: 350px;
+   padding: 10px 4px;
+   border: none;
+   border: 1px solid rgb(99, 95, 95, 0.1);
+   margin: 10px 2px;
+}
+
+/* Font Awesome */
+.fontAwesome {
+   color: blue;
+   font-size: 4.2em;
+   display: flex;
+   padding: 4rem 0;
+}
+
+.fontAwesome p {
+   font-size: .25em;
+   margin-left: -1.3rem;
+}
+
+
+/* How it works */
+.submit:hover {
+   background-color: whitesmoke;
+}
+
+.how i {
+   color: blue;
+   font-size: 1.8em;
+   border-radius: 100%;
+   background: rgb(196, 196, 230);
+   padding: 1.4rem 1.3rem;
+}
+
+
+/* Cities */
+.cities img,
+#trending .card {
+   transition: .5s;
+   border-spacing: border-box;
+}
+
+.cities img:hover {
+   cursor: pointer;
+   transform: scaleY(1.03);
+}
+
+/* trending */
+
+
+#trending .card:hover {
+   cursor: pointer;
+   transform: scaleY(1.019);
+}
+
+
+
+/* Choose a plan for your space */
+
+.medal span {
+   font-size: 4rem;
+   font-weight: 500;
+   color: blue;
+}
+
+/* Calota */
+
+#Calota {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Calota img {
+   display: inline-block;
+   border-radius: 50%;
+   cursor: pointer;
+   margin: 2rem;
+}
+
+
+
+/* footer */
+footer {
+   background: rgb(51, 51, 78);
+   color: white;
+}
+
+
+footer a {
+   color: rgb(141, 138, 138);
+}
+
+footer a:hover {
+   text-decoration: none;
+   color: white;
+}
+
+/* responsiveness   */
+@media (max-width: 999px) {
+   body {
+      overflow-X: hidden;
+   }
+
+   .incover {
+      display: inline-block;
+      min-height: 12rem;
+      margin-top: 678px;
+      padding: 12px;
+      padding-bottom: 12px;
+      min-width: 80%;
+      margin: auto 0;
+   }
+
+   .incoverBody1 {
+      margin: 0;
+   }
+
+   .incoverBody3 {
+      width: 100%;
+      display: block;
+      margin: auto 0;
+   }
+
+   .incover input {
+      width: 100%;
+      padding: 10px 4px;
+      border: none;
+      border: 1px solid rgb(99, 95, 95, 0.1);
+      margin: 10px 0;
+
+   }
+
+   /* Font Awesome */
+   .fontAwesome {
+      color: blue;
+      font-size: 4.1em;
+      display: flex;
+      padding: 4rem 0;
+   }
+
+   .fontAwesome .row div {
+      width: 50%;
+      text-align: center;
+   }
+
+   /* Space */
+   #space {
+      margin: 0 2rem;
+      padding: 2rem;
+   }
+
+   #space .jumbotron {
+
+      border: 5px solid rgb(162, 167, 162, 4%);
+   }
+
+   /* Cities */
+   .cities {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .cities img {
+      text-align: center;
+   }
+
+
+
+
+   /*how it works */
+   .how,
+   .choose {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .how .card,
+   .choose .card {
+      width: 100;
+      padding: 1rem;
+
+   }
+
+   .cities .row .card {
+      width: 50;
+      padding: 1rem;
+   }
